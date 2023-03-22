@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">App02</string>
+    <string name="app_name">Email</string>
+    <string name="assunto">Assunto</string>
+    <string name="email">Email</string>
+    <string name="enviar">Enviar</string>
+    <string name="texto">Digite o texto aqui</string>
 </resources>
