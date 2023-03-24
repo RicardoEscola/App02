@@ -9,11 +9,13 @@
     <EditText
         android:id="@+id/etTexto"
         android:layout_width="0dp"
-        android:layout_height="559dp"
+        android:layout_height="0dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
+        android:gravity="top|left"
         android:hint="@string/texto"
         android:inputType="textPersonName"
         android:rotation="0"
@@ -24,8 +26,8 @@
         android:textAlignment="inherit"
         app:layout_constraintBottom_toTopOf="@+id/btnEnviar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAssunto" />
 
     <Button
         android:id="@+id/btnEnviar"
@@ -60,12 +62,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="@string/assunto"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/etTexto"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmail" />
 
